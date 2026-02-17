@@ -1,0 +1,37 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Misc
+.env
+
+# Test
+/test-output/
+
+# Sonar
+/.scannerwork/
+
+# VS Code
+.vscode/
+
+# Exclude local configs
+application-local.properties
